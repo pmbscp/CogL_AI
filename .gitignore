@@ -1,0 +1,36 @@
+# =====================================
+# CogL_AI Project .gitignore
+# =====================================
+
+# --- Python cache ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+*.ipynb_save
+*.ipynb~
+*.nbconvert.ipynb
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+*.env
+*.venv
+
+# --- IDE / editor files ---
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+
+# --- Data ---
+
+# --- OS / logs ---
+Thumbs.db
+*.log
